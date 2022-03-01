@@ -1,0 +1,37 @@
+:root {
+  --normal: 400;
+  --bold: 700;
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+a {
+  font-family: 'Karla', sans-serif;
+  font-size: var(--normal);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'DM Serif Display', serif;
+  font-size: var(--normal);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: min(1110px, 87.2%);
+  margin: 0 auto;
+}

@@ -1,0 +1,9 @@
+:root {
+  --section-bg: hsl(256, 26%, 20%);
+  --nav-bg: hsl(270, 9%, 17%);
+  --footer-bg: hsl(0, 0%, 98%);
+  
+  --primary: hsl(270, 9%, 17%);
+  --secondary: hsl(273, 4%, 51%);
+  /* --text: hsl(216, 30%, 68%) */
+}
