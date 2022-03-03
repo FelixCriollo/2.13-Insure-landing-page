@@ -32,7 +32,7 @@ ul {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
 }
 
 .container {
@@ -40,8 +40,3 @@ img {
   margin: 0 auto;
 }
 
-.flex {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}

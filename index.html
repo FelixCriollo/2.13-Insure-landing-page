@@ -8,7 +8,7 @@
   
   <title>Insure landing page</title>
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="public/style.css">
   <!-- <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
@@ -16,9 +16,9 @@
 </head>
 <body>
   <header class="header">
-    <div class="container flex">
+    <div class="container">
       <a href="#">
-        <img src="images/logo.svg" alt="insure">
+        <img src="public/images/logo.svg" alt="insure">
       </a>
 
       <nav class="nav">
@@ -46,7 +46,7 @@
   </header>
 
   <section class="intro">
-    <div class="container flex">
+    <div class="intro-container">
       <div class="intro-content">
         <h1 class="title title--dark">Humanizing your insurance.</h1>
 
@@ -57,41 +57,41 @@
 
       <div class="intro-image">
         <picture>
-          <source media="(min-width: 800px)" srcset="images/image-intro-desktop.jpg">
-          <img src="images/image-intro-mobile.jpg" alt="hero">
+          <source media="(min-width: 800px)" srcset="public/images/image-intro-desktop.jpg">
+          <img src="public/images/image-intro-mobile.jpg" alt="hero">
         </picture>
       </div>
     </div>
   </section>
 
-  <main>
+  <main class="main">
     <div class="container">
       <section class="different">
         <h2 class="title">We’re different</h2>
 
         <div class="different-container">
           <div class="diferent-item">
-            <img src="images/icon-snappy-process.svg" alt="" aria-hidden="true" class="different-img">
-            <h4 class="different-title">Snappy Process</h4>
+            <img src="public/images/icon-snappy-process.svg" alt="" aria-hidden="true" class="different-img">
+            <h4 class="item-title">Snappy Process</h4>
             <p class="text">Our application process can be completed in minutes, not hours. Don’t get stuck filling in tedious forms.</p>
           </div>
           
           <div class="diferent-item">
-            <img src="images/icon-affordable-prices.svg" alt="" aria-hidden="true" class="different-img">
-            <h4 class="different-title">Affordable Prices</h4>
+            <img src="public/images/icon-affordable-prices.svg" alt="" aria-hidden="true" class="different-img">
+            <h4 class="item-title">Affordable Prices</h4>
             <p class="text">We don’t want you worrying about high monthly costs. Our prices may be low, but we still offer the best coverage possible.</p>
           </div>
 
           <div class="diferent-item">
-            <img src="images/icon-people-first.svg" alt="" aria-hidden="true" class="different-img">
-            <h4 class="different-title">People First</h4>
+            <img src="public/images/icon-people-first.svg" alt="" aria-hidden="true" class="different-img">
+            <h4 class="item-title">People First</h4>
             <p class="text">Our plans aren’t full of conditions and clauses to prevent payouts. We make sure you’re covered when you need it.</p>
           </div>
         </div>
       </section>
 
       <section class="find-more">
-        <h3 class="subtitle">Find out more about how we work</h3>
+        <h3 class="subtitle subtitle--dark">Find out more<br> about how we work</h3>
 
         <a href="#" class="btn">How we work</a>
       </section>
@@ -102,7 +102,7 @@
     <div class="container">
       <div class="footer-top">
         <a href="#">
-          <img src="images/logo.svg" alt="insure">
+          <img src="public/images/logo.svg" alt="insure" class="footer-logo">
         </a>
 
         <div class="social">

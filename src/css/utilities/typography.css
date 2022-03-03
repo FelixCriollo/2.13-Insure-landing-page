@@ -5,3 +5,49 @@
   font-size: 1.34rem;
   letter-spacing: 0.06em;
 }
+
+.title,
+.subtitle,
+.item-title {
+  color: var(--primary);
+}
+
+.title {
+  font-size: 2.94rem;
+  line-height: 48px;
+}
+
+.subtitle {
+  font-size: 2.44rem;
+  line-height: 40px;
+}
+
+.text {
+  line-height: 26px;
+  color: var(--secondary);
+}
+
+.title--dark,
+.subtitle--dark,
+.text--dark {
+  color: #fff;
+}
+
+.item-title {
+  font-size: 1.69rem;
+}
+
+.footer-nav-link,
+.footer-nav-section {
+  font-weight: var(--bold);
+  font-size: .88rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.footer-nav-link {
+  color: var(--primary);
+}
+.footer-nav-section {
+  color: var(--secondary);
+  margin-bottom: 2.3em;
+}
