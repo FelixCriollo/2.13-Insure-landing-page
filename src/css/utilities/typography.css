@@ -4,6 +4,12 @@
 
   font-size: 1.34rem;
   letter-spacing: 0.06em;
+  
+  @media (--desktop) {
+    color: var(--secondary);
+    font-size: 0.88rem;
+    font-weight: var(--bold);
+  }
 }
 
 .title,
@@ -15,11 +21,15 @@
 .title {
   font-size: 2.94rem;
   line-height: 48px;
+
+  @media (--desktop) {font-size: 4.38rem; line-height: 65px;}
 }
 
 .subtitle {
   font-size: 2.44rem;
   line-height: 40px;
+
+  @media (--desktop) {font-size: 3.38rem;}
 }
 
 .text {

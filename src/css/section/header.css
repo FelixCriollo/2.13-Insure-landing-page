@@ -1,0 +1,19 @@
+.header {
+  position: fixed;
+  background: #fff;
+  width: 100%;
+  padding: 1.5em 0;
+  z-index: 10;
+
+  @media (--desktop) {padding: 1.31em 0 1.19em 0;}
+
+  & .header-logo {
+    @media (--desktop) {width: 112px;}
+  }
+
+  & .container {
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

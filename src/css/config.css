@@ -35,6 +35,8 @@ img {
   width: 100%;
 }
 
+@custom-media --desktop (min-width: 800px);
+
 .container {
   width: min(1110px, 87.2%);
   margin: 0 auto;

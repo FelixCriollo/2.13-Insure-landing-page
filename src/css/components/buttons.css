@@ -6,11 +6,15 @@
   width: 32px;
   height: 32px;
 
-  background: url('/public/images/icon-hamburger.svg') center center no-repeat;
+  background: url('/src/images/icon-hamburger.svg') center center no-repeat;
+
+  @media (--desktop) {
+    display: none;
+  }
 }
 
 .nav-toggle--close {
-  background: url('/public/images/icon-close.svg') center center no-repeat;
+  background: url('/src/images/icon-close.svg') center center no-repeat;
 }
 
 .btn {
@@ -22,4 +26,9 @@
   text-transform: uppercase;
   letter-spacing: 0.065em;
   padding: .55em 1.7em;
+
+  @media (--desktop) {
+    cursor: pointer;
+    z-index: 10;
+  }
 }

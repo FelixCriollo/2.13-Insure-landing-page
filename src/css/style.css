@@ -5,4 +5,8 @@
 
 @import 'components/nav.css';
 @import 'components/buttons.css';
-@import 'components/sections.css';
+
+@import 'section/header.css';
+@import 'section/intro.css';
+@import 'section/main.css';
+@import 'section/footer.css';

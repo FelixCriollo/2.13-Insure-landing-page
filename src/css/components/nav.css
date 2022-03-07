@@ -12,16 +12,35 @@
   text-align: center;
   overflow: hidden;
   transition: height .3s ease-in;
+
+  @media (--desktop) {
+    position: relative;
+    top: 0;
+    height: auto;
+    background: #fff;
+  }
   
   & .nav-list {
     padding-top: .5em;
+
+    @media (--desktop) {
+      padding: 0;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 1.5em;
+    }
   }
 
   & .nav-item {
     margin-top: 2.44em;
+    
+    @media (--desktop) {margin: 0;}
 
     &:last-child {
       margin-top: 2em;
+
+      @media (--desktop) {margin: 0;}
     }
   }
 
@@ -32,6 +51,13 @@
     width: 87.2%;
     padding: .6em;
     margin: 0 auto;
+
+    @media (--desktop) {
+      width: 146px;
+      border-color: var(--primary);
+      color: var(--primary);
+      margin-left: .9em;
+    }
   }
 }
 .nav--active {
