@@ -29,6 +29,5 @@
 
   @media (--desktop) {
     cursor: pointer;
-    z-index: 10;
   }
 }
