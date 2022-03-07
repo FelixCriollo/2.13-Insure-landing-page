@@ -63,8 +63,4 @@
 .nav--active {
   height: calc(100vh - 80px);
   transition: height .3s ease-out;
-
-  @media (--desktop) {
-    height: auto;
-  }
 }
