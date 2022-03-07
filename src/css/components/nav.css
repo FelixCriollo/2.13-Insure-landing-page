@@ -1,5 +1,5 @@
 .nav {
-  background: url('/public/images/bg-pattern-mobile-nav.svg') center bottom no-repeat, 
+  background: url('/src/images/bg-pattern-mobile-nav.svg') center bottom no-repeat, 
               var(--nav-bg);
   background-size: 100% 38%;
   width: 100%;
@@ -63,4 +63,8 @@
 .nav--active {
   height: calc(100vh - 80px);
   transition: height .3s ease-out;
+
+  @media (--desktop) {
+    height: auto;
+  }
 }
